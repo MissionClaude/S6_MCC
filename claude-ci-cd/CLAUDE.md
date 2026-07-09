@@ -12,8 +12,8 @@ Aplicación Angular "Hola Mundo" usada como base para practicar el flujo de CI/C
 
 ## CI/CD
 
-- `.github/workflows/ci.yml` — lint, test y build en cada push/PR a `main`.
+- `.github/workflows/ci.yml` — lint, test y build en cada PR hacia `qa`.
 - `.github/workflows/claude.yml` — permite invocar a Claude Code respondiendo `@claude` en issues, PRs o comentarios.
-- `.github/workflows/claude-code-review.yml` — Claude revisa automáticamente cada PR abierto o actualizado.
+- `.github/workflows/claude-code-review.yml` — Claude revisa automáticamente cada PR abierto o actualizado hacia `qa`.
 
 Los workflows de Claude requieren el secret `ANTHROPIC_API_KEY` configurado en el repositorio de GitHub (Settings → Secrets and variables → Actions).
