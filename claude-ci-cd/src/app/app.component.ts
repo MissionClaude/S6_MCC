@@ -9,5 +9,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'claude-ci-cd-app';
+  title = 'claude-ci-cd-app.';
 }
