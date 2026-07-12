@@ -1,44 +1,27 @@
-# Multi-Agent Research System con Claude Agent SDK
+# ClaudeCiCdApp
 
-Sistema de investigación multiagente en Python:
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.9.
 
-- Coordinador en Python.
-- Subagente de búsqueda web.
-- Subagente de análisis documental.
-- Subagente de síntesis.
-- Subagente de generación de reporte.
-- Claim-source mappings con URL, fecha de acceso y evidencia.
-- Propagación de errores con resultados parciales.
+## Development server
 
-## Instalación
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-```
+## Code scaffolding
 
-## Prueba rápida para ver si esta funcional tanto el sdk 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-```powershell
-python -m app.smoke_test
-```
+## Build
 
-## Ejecutar investigación
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-```powershell
-python -m app.main --topic "Impacto de la IA en las industrias creativas" --output reporte_ia.md
-```
+## Running unit tests
 
-## Ejecutar pruebas locales
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-```powershell
-pytest
-```
+## Running end-to-end tests
 
-## Archivos generados
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-- `output/reporte_ia.md`
-- `output/claim_source_mappings.json`
-- `output/run_results.json`
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
